@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment> Project Configuration </comment>
+<entry key="Chapter0.SceneId.X">113</entry>
+<entry key="Chapter0.SceneId.Y">49</entry>
+<entry key="Chapter0.Fuente.X">433</entry>
+<entry key="Chapter0.Fuente.Y">188</entry>
+<entry key="Chapter0.Mirador.X">-76</entry>
+<entry key="Chapter0.Mirador.Y">395</entry>
+<entry key="Chapter0.Estatua.X">-234</entry>
+<entry key="Chapter0.Estatua.Y">110</entry>
+<entry key="Chapter0.Observatorio.X">-5</entry>
+<entry key="Chapter0.Observatorio.Y">225</entry>
+<entry key="Chapter0.IntroScene.X">391</entry>
+<entry key="Chapter0.IntroScene.Y">20</entry>
+<entry key="Chapter0.Bosque1.X">158</entry>
+<entry key="Chapter0.Bosque1.Y">178</entry>
+<entry key="Chapter0.Bosque2.X">280</entry>
+<entry key="Chapter0.Bosque2.Y">499</entry>
+<entry key="Chapter0.Bosque4.X">179</entry>
+<entry key="Chapter0.Bosque4.Y">-18</entry>
+<entry key="Chapter0.Instituto.X">-56</entry>
+<entry key="Chapter0.Instituto.Y">81</entry>
+<entry key="Chapter0.Bosque3.X">17</entry>
+<entry key="Chapter0.Bosque3.Y">-9</entry>
+<entry key="Chapter0.Tesoro.X">649</entry>
+<entry key="Chapter0.Tesoro.Y">41</entry>
+</properties>
+

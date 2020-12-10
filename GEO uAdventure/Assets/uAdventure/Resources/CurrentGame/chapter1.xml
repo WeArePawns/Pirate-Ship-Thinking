@@ -1,0 +1,2480 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eAdventure version="2">
+  <player>
+    <resources name="No name">
+      <asset type="standup" uri="assets/special/EmptyAnimation" />
+      <asset type="standdown" uri="assets/special/EmptyAnimation" />
+      <asset type="standright" uri="assets/special/EmptyAnimation" />
+      <asset type="standleft" uri="assets/special/EmptyAnimation" />
+      <asset type="speakup" uri="assets/special/EmptyAnimation" />
+      <asset type="speakdown" uri="assets/special/EmptyAnimation" />
+      <asset type="speakright" uri="assets/special/EmptyAnimation" />
+      <asset type="speakleft" uri="assets/special/EmptyAnimation" />
+      <asset type="useright" uri="assets/special/EmptyAnimation" />
+      <asset type="useleft" uri="assets/special/EmptyAnimation" />
+      <asset type="walkup" uri="assets/special/EmptyAnimation" />
+      <asset type="walkdown" uri="assets/special/EmptyAnimation" />
+      <asset type="walkright" uri="assets/special/EmptyAnimation" />
+      <asset type="walkleft" uri="assets/special/EmptyAnimation" />
+    </resources>
+    <textcolor showsSpeechBubble="no" bubbleBkgColor="#FFFFFF" bubbleBorderColor="#000000">
+      <frontcolor color="#FFFFFF" />
+      <bordercolor color="#000000" />
+    </textcolor>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <voice name="" synthesizeAlways="no" />
+  </player>
+  <character id="LoroBalta" behaviour="normal">
+    <resources name="No name">
+      <asset type="standup" uri="assets/special/EmptyAnimation" />
+      <asset type="standdown" uri="assets/animation/Idle.eaa.xml" />
+      <asset type="standright" uri="assets/special/EmptyAnimation" />
+      <asset type="standleft" uri="assets/special/EmptyAnimation" />
+      <asset type="speakup" uri="assets/special/EmptyAnimation" />
+      <asset type="speakdown" uri="assets/special/EmptyAnimation" />
+      <asset type="speakright" uri="assets/special/EmptyAnimation" />
+      <asset type="speakleft" uri="assets/special/EmptyAnimation" />
+      <asset type="useright" uri="assets/special/EmptyAnimation" />
+      <asset type="useleft" uri="assets/special/EmptyAnimation" />
+      <asset type="walkup" uri="assets/special/EmptyAnimation" />
+      <asset type="walkdown" uri="assets/special/EmptyAnimation" />
+      <asset type="walkright" uri="assets/special/EmptyAnimation" />
+      <asset type="walkleft" uri="assets/special/EmptyAnimation" />
+    </resources>
+    <textcolor showsSpeechBubble="yes" bubbleBkgColor="#FA998F" bubbleBorderColor="#000000">
+      <frontcolor color="#FFFFFF" />
+      <bordercolor color="#000000" />
+    </textcolor>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <voice name="" synthesizeAlways="no" />
+    <actions>
+      <talk-to needsGoTo="yes" keepDistance="35" not-effects="no">
+        <documentation>Solo si esta en el mapa geoposicionado, se puede interactuar con el</documentation>
+        <condition>
+          <inactive flag="EnEscena" />
+        </condition>
+        <effect>
+          <trigger-conversation idTarget="LoroAyuda" />
+          <condition />
+        </effect>
+      </talk-to>
+    </actions>
+  </character>
+  <character id="Piratas1" behaviour="normal">
+    <resources name="No name">
+      <asset type="standup" uri="assets/special/EmptyAnimation" />
+      <asset type="standdown" uri="assets/animation/Piratas.eaa.xml" />
+      <asset type="standright" uri="assets/special/EmptyAnimation" />
+      <asset type="standleft" uri="assets/special/EmptyAnimation" />
+      <asset type="speakup" uri="assets/special/EmptyAnimation" />
+      <asset type="speakdown" uri="assets/special/EmptyAnimation" />
+      <asset type="speakright" uri="assets/special/EmptyAnimation" />
+      <asset type="speakleft" uri="assets/special/EmptyAnimation" />
+      <asset type="useright" uri="assets/special/EmptyAnimation" />
+      <asset type="useleft" uri="assets/special/EmptyAnimation" />
+      <asset type="walkup" uri="assets/special/EmptyAnimation" />
+      <asset type="walkdown" uri="assets/special/EmptyAnimation" />
+      <asset type="walkright" uri="assets/special/EmptyAnimation" />
+      <asset type="walkleft" uri="assets/special/EmptyAnimation" />
+    </resources>
+    <textcolor showsSpeechBubble="no" bubbleBkgColor="#FFC186" bubbleBorderColor="#000000">
+      <frontcolor color="#FAFAFA" />
+      <bordercolor color="#000000" />
+    </textcolor>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <voice name="" synthesizeAlways="no" />
+  </character>
+  <character id="Fantasma" behaviour="normal">
+    <resources name="No name">
+      <asset type="standup" uri="assets/special/EmptyAnimation" />
+      <asset type="standdown" uri="assets/animation/FantasmaIdle.eaa.xml" />
+      <asset type="standright" uri="assets/special/EmptyAnimation" />
+      <asset type="standleft" uri="assets/special/EmptyAnimation" />
+      <asset type="speakup" uri="assets/special/EmptyAnimation" />
+      <asset type="speakdown" uri="assets/special/EmptyAnimation" />
+      <asset type="speakright" uri="assets/special/EmptyAnimation" />
+      <asset type="speakleft" uri="assets/special/EmptyAnimation" />
+      <asset type="useright" uri="assets/special/EmptyAnimation" />
+      <asset type="useleft" uri="assets/special/EmptyAnimation" />
+      <asset type="walkup" uri="assets/special/EmptyAnimation" />
+      <asset type="walkdown" uri="assets/special/EmptyAnimation" />
+      <asset type="walkright" uri="assets/special/EmptyAnimation" />
+      <asset type="walkleft" uri="assets/special/EmptyAnimation" />
+    </resources>
+    <textcolor showsSpeechBubble="yes" bubbleBkgColor="#A1FDC5" bubbleBorderColor="#000000">
+      <frontcolor color="#FFFFFF" />
+      <bordercolor color="#000000" />
+    </textcolor>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <voice name="" synthesizeAlways="no" />
+  </character>
+  <character id="Narrador" behaviour="normal">
+    <resources name="No name">
+      <asset type="standup" uri="assets/special/EmptyAnimation" />
+      <asset type="standdown" uri="assets/animation/NarradorIdle.eaa.xml" />
+      <asset type="standright" uri="assets/special/EmptyAnimation" />
+      <asset type="standleft" uri="assets/special/EmptyAnimation" />
+      <asset type="speakup" uri="assets/special/EmptyAnimation" />
+      <asset type="speakdown" uri="assets/special/EmptyAnimation" />
+      <asset type="speakright" uri="assets/special/EmptyAnimation" />
+      <asset type="speakleft" uri="assets/special/EmptyAnimation" />
+      <asset type="useright" uri="assets/special/EmptyAnimation" />
+      <asset type="useleft" uri="assets/special/EmptyAnimation" />
+      <asset type="walkup" uri="assets/special/EmptyAnimation" />
+      <asset type="walkdown" uri="assets/special/EmptyAnimation" />
+      <asset type="walkright" uri="assets/special/EmptyAnimation" />
+      <asset type="walkleft" uri="assets/special/EmptyAnimation" />
+    </resources>
+    <textcolor showsSpeechBubble="yes" bubbleBkgColor="#9DD2FA" bubbleBorderColor="#000000">
+      <frontcolor color="#FFFFFF" />
+      <bordercolor color="#000000" />
+    </textcolor>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <voice name="" synthesizeAlways="no" />
+  </character>
+  <scene id="IntroScene" hideInventory="no" start="yes" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Backgroundo.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="IntroBook" x="113" y="255" scale="0.2307576" layer="0" hasInfluenceArea="no" />
+    </objects>
+  </scene>
+  <scene id="Fuente" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/fuente.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <exits>
+      <exit rectangular="yes" x="-4" y="1005" width="677" height="193" hasInfluenceArea="no" idTarget="MapaCIU" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
+        <effect>
+          <deactivate flag="EnEscena" />
+          <condition />
+        </effect>
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="Carta" x="338" y="1221" scale="1.862712" layer="4" hasInfluenceArea="no">
+        <condition>
+          <active flag="CartaVisible" />
+        </condition>
+      </object-ref>
+      <object-ref idTarget="ArrowDown" x="334" y="1189" scale="0.2361217" layer="1" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="Piratas1" x="500" y="979" scale="0.7073292" orientation="2" layer="3" hasInfluenceArea="no">
+        <condition>
+          <inactive flag="PiratasConverDone" />
+        </condition>
+      </character-ref>
+      <character-ref idTarget="Narrador" x="350" y="200" scale="0.1" orientation="2" layer="0" hasInfluenceArea="no" />
+      <character-ref idTarget="LoroBalta" x="101" y="991" scale="0.07363748" orientation="2" layer="2" hasInfluenceArea="no" />
+    </characters>
+  </scene>
+  <scene id="Estatua" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Estatua.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <exits>
+      <exit rectangular="yes" x="-3" y="889" width="577" height="133" hasInfluenceArea="no" idTarget="MapaCIU" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
+        <effect>
+          <deactivate flag="EnEscena" />
+          <condition />
+        </effect>
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="ArrowDown" x="295" y="1020" scale="0.2071547" layer="1" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="LoroBalta" x="90" y="874" scale="0.1029633" orientation="2" layer="2" hasInfluenceArea="no" />
+      <character-ref idTarget="Narrador" x="284" y="200" scale="0.1" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+  </scene>
+  <scene id="Observatorio" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/observatorio.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <exits>
+      <exit rectangular="yes" x="-2" y="506" width="325" height="68" hasInfluenceArea="no" idTarget="MapaCIU" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
+        <effect>
+          <deactivate flag="EnEscena" />
+          <condition />
+        </effect>
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="ArrowDown" x="162" y="571" scale="0.1075922" layer="0" hasInfluenceArea="no" />
+    </objects>
+  </scene>
+  <scene id="Mirador" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/mirador.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <exits>
+      <exit rectangular="yes" x="-4" y="768" width="510" height="123" hasInfluenceArea="no" idTarget="MapaCIU" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
+        <effect>
+          <deactivate flag="EnEscena" />
+          <condition />
+        </effect>
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="ArrowDown" x="252" y="880" scale="0.1526245" layer="1" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="Fantasma" x="237" y="599" scale="0.2226391" orientation="2" layer="3" hasInfluenceArea="no">
+        <condition>
+          <active flag="AcertijoMiradorDone" />
+        </condition>
+      </character-ref>
+      <character-ref idTarget="LoroBalta" x="57" y="916" scale="0.1736464" orientation="2" layer="2" hasInfluenceArea="no" />
+      <character-ref idTarget="Narrador" x="260" y="200" scale="0.1" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+  </scene>
+  <scene id="Instituto" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/instituto.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <exits>
+      <exit rectangular="yes" x="1" y="412" width="267" height="64" hasInfluenceArea="no" idTarget="MapaCIU" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
+        <effect>
+          <deactivate flag="EnEscena" />
+          <condition />
+        </effect>
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="Nudo" x="134" y="404" scale="0.8950344" layer="4" hasInfluenceArea="no">
+        <condition>
+          <active flag="NudoVisible" />
+        </condition>
+      </object-ref>
+      <object-ref idTarget="ArrowDown" x="136" y="471" scale="0.0818711" layer="1" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="LoroBalta" x="44" y="399" scale="0.03495202" orientation="2" layer="2" hasInfluenceArea="no" />
+      <character-ref idTarget="Narrador" x="135" y="100" scale="0.05" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+  </scene>
+  <scene id="Bosque1" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Forest1.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <exits>
+      <exit rectangular="yes" x="-12" y="1312" width="864" height="193" hasInfluenceArea="no" idTarget="MapaCIU" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="ArrowDown" x="426" y="1480" scale="0.2134321" layer="0" hasInfluenceArea="no" />
+    </objects>
+    <active-areas>
+      <active-area id="Monedas" rectangular="no" x="651" y="1181" width="116" height="120" hasInfluenceArea="no" behaviour="first-action">
+        <condition>
+          <inactive flag="Bosque1Explorado" />
+        </condition>
+        <description>
+          <name>
+          </name>
+          <brief>
+          </brief>
+          <detailed>
+          </detailed>
+        </description>
+        <actions>
+          <examine needsGoTo="no" keepDistance="0" not-effects="no">
+            <effect>
+              <speak-player>Ooooh! un saco de monedas. Esto puede ser util más adelante.</speak-player>
+              <condition />
+              <activate flag="Bosque1Explorado" />
+              <condition />
+              <increment var="Monedas" value="10" />
+              <condition />
+            </effect>
+          </examine>
+        </actions>
+        <point x="675" y="1195" />
+        <point x="715" y="1181" />
+        <point x="754" y="1195" />
+        <point x="767" y="1233" />
+        <point x="754" y="1289" />
+        <point x="709" y="1301" />
+        <point x="675" y="1289" />
+        <point x="651" y="1233" />
+      </active-area>
+    </active-areas>
+  </scene>
+  <scene id="Bosque2" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Forest2.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <exits>
+      <exit rectangular="yes" x="4" y="522" width="336" height="76" hasInfluenceArea="no" idTarget="MapaCIU" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="ArrowDown" x="168" y="595" scale="0.1053453" layer="0" hasInfluenceArea="no" />
+    </objects>
+    <active-areas>
+      <active-area id="Monedas1" rectangular="no" x="208" y="343" width="36" height="28" hasInfluenceArea="yes" influenceX="0" influenceY="0" influenceWidth="85" influenceHeight="74" behaviour="first-action">
+        <condition>
+          <inactive flag="Bosque2Explorado" />
+        </condition>
+        <description>
+          <name>
+          </name>
+          <brief>
+          </brief>
+          <detailed>
+          </detailed>
+        </description>
+        <actions>
+          <examine needsGoTo="no" keepDistance="0" not-effects="no">
+            <effect>
+              <speak-player>Vaya! habia un saco de monedas en ese poste. Que afortunado.</speak-player>
+              <condition />
+              <activate flag="Bosque2Explorado" />
+              <condition />
+              <increment var="Monedas" value="10" />
+              <condition />
+            </effect>
+          </examine>
+        </actions>
+        <point x="233" y="343" />
+        <point x="244" y="358" />
+        <point x="226" y="371" />
+        <point x="208" y="359" />
+        <point x="216" y="343" />
+      </active-area>
+    </active-areas>
+  </scene>
+  <scene id="Bosque3" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Forest3.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <exits>
+      <exit rectangular="yes" x="-2" y="417" width="275" height="67" hasInfluenceArea="no" idTarget="MapaCIU" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="ArrowDown" x="134" y="484" scale="0.09207207" layer="0" hasInfluenceArea="no" />
+    </objects>
+    <active-areas>
+      <active-area id="Monedas2" rectangular="no" x="6" y="353" width="25" height="19" hasInfluenceArea="no" behaviour="first-action">
+        <condition>
+          <inactive flag="Bosque3Explorado" />
+        </condition>
+        <description>
+          <name>
+          </name>
+          <brief>
+          </brief>
+          <detailed>
+          </detailed>
+        </description>
+        <actions>
+          <examine needsGoTo="no" keepDistance="0" not-effects="no">
+            <effect>
+              <speak-player>Oooh alguien se debio dejar esta saco de monedas. No creo que le importe si me lo quedo.</speak-player>
+              <condition />
+              <activate flag="Bosque3Explorado" />
+              <condition />
+              <increment var="Monedas" value="10" />
+              <condition />
+            </effect>
+          </examine>
+        </actions>
+        <point x="6" y="360" />
+        <point x="18" y="353" />
+        <point x="31" y="355" />
+        <point x="30" y="372" />
+        <point x="12" y="372" />
+      </active-area>
+    </active-areas>
+  </scene>
+  <scene id="Bosque4" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Forest4.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <exits>
+      <exit rectangular="yes" x="0" y="619" width="397" height="88" hasInfluenceArea="no" idTarget="MapaCIU" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="ArrowDown" x="201" y="703" scale="0.1265788" layer="0" hasInfluenceArea="no" />
+    </objects>
+    <active-areas>
+      <active-area id="Monedas3" rectangular="no" x="301" y="417" width="47" height="45" hasInfluenceArea="no" behaviour="first-action">
+        <condition>
+          <inactive flag="Bosque4Explorado" />
+        </condition>
+        <description>
+          <name>
+          </name>
+          <brief>
+          </brief>
+          <detailed>
+          </detailed>
+        </description>
+        <actions>
+          <examine needsGoTo="no" keepDistance="0" not-effects="no">
+            <effect>
+              <speak-player>Aja! una bolsa de monedas. A este paso me haré rico jejeje.</speak-player>
+              <condition />
+              <activate flag="Bosque4Explorado" />
+              <condition />
+              <increment var="Monedas" value="10" />
+              <condition />
+            </effect>
+          </examine>
+        </actions>
+        <point x="310" y="425" />
+        <point x="323" y="417" />
+        <point x="338" y="420" />
+        <point x="348" y="439" />
+        <point x="343" y="456" />
+        <point x="323" y="462" />
+        <point x="307" y="456" />
+        <point x="301" y="436" />
+      </active-area>
+    </active-areas>
+  </scene>
+  <scene id="Tesoro" hideInventory="no" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/tesoro.png" />
+      <asset type="foreground" uri="" />
+      <asset type="bgmusic" uri="" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <characters>
+      <character-ref idTarget="LoroBalta" x="32" y="585" scale="0.1061017" orientation="2" layer="1" hasInfluenceArea="no" />
+      <character-ref idTarget="Narrador" x="165" y="131" scale="0.1" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+  </scene>
+  <map-scene id="MapaCIU" cameraType="Aerial2D" renderStyle="Tile" tileMetaIdentifier="OSMTile" usesGameplayArea="yes" gameplayArea="40,4576480601386 -3,72561169975274 0,00296325581597046 0,00652313232423074" center="(40.4592916517439, -3.72103327504735)" zoom="16" start="no">
+    <map-element targetId="FuenteTomasa" layer="0" scale="1" orientation="2">
+      <condition>
+        <inactive flag="FuenteVisitada" />
+      </condition>
+    </map-element>
+    <map-element targetId="EstatuaAndresBello" layer="0" scale="1" orientation="2">
+      <condition>
+        <inactive flag="EstatuaVisitada" />
+      </condition>
+    </map-element>
+    <map-element targetId="InstitutoFabiola" layer="0" scale="1" orientation="2">
+      <condition>
+        <inactive flag="FabiolaVisitada" />
+      </condition>
+    </map-element>
+    <map-element targetId="MiradorDehesa" layer="0" scale="1" orientation="2">
+      <condition>
+        <inactive flag="MiradorVisitado" />
+      </condition>
+    </map-element>
+    <map-element targetId="LoroBalta" layer="0" scale="0.1263545" orientation="2">
+      <condition />
+      <ext-elem-ref transformManager="uAdventure.Geo.ScreenDescriptor">
+        <param name="Position">(72.48346, 603.3514)</param>
+        <param name="Rotation">0</param>
+        <actions />
+      </ext-elem-ref>
+    </map-element>
+    <map-element targetId="BosqueGeo1" layer="0" scale="1" orientation="2">
+      <condition>
+        <inactive flag="Bosque1Explorado" />
+      </condition>
+    </map-element>
+    <map-element targetId="BosqueGeo2" layer="0" scale="1" orientation="2">
+      <condition>
+        <inactive flag="Bosque3Explorado" />
+      </condition>
+    </map-element>
+    <map-element targetId="BosqueGeo3" layer="0" scale="1" orientation="2">
+      <condition>
+        <inactive flag="Bosque4Explorado" />
+      </condition>
+    </map-element>
+    <map-element targetId="BosqueGeo4" layer="0" scale="1" orientation="2">
+      <condition>
+        <inactive flag="Bosque2Explorado" />
+      </condition>
+    </map-element>
+    <map-element targetId="Bolsa1" layer="0" scale="0.03919511" orientation="2">
+      <condition>
+        <inactive flag="Bolsa1Cogida" />
+      </condition>
+      <ext-elem-ref transformManager="uAdventure.Geo.GeopositionedDescriptor">
+        <param name="Position">(40.4582328796387, -3.72456026077271)</param>
+        <param name="Rotation">0</param>
+        <param name="InteractionRange">25</param>
+        <param name="RevealOnlyOnRange">True</param>
+        <param name="Hint">False</param>
+        <param name="RevealParticleTexture">leaf_particle.png</param>
+        <actions />
+      </ext-elem-ref>
+    </map-element>
+    <map-element targetId="Bolsa2" layer="0" scale="0.04024131" orientation="2">
+      <condition>
+        <inactive flag="Bolsa2Cogida" />
+      </condition>
+      <ext-elem-ref transformManager="uAdventure.Geo.GeopositionedDescriptor">
+        <param name="Position">(40.4601287841797, -3.7229859828949)</param>
+        <param name="Rotation">0</param>
+        <param name="InteractionRange">25</param>
+        <param name="RevealOnlyOnRange">True</param>
+        <param name="Hint">False</param>
+        <param name="RevealParticleTexture">leaf_particle.png</param>
+        <actions />
+      </ext-elem-ref>
+    </map-element>
+    <map-element targetId="Bolsa3" layer="0" scale="0.03960744" orientation="2">
+      <condition>
+        <inactive flag="Bolsa3Cogida" />
+      </condition>
+      <ext-elem-ref transformManager="uAdventure.Geo.GeopositionedDescriptor">
+        <param name="Position">(40.4579925537109, -3.7228410243988)</param>
+        <param name="Rotation">0</param>
+        <param name="InteractionRange">25</param>
+        <param name="RevealOnlyOnRange">True</param>
+        <param name="Hint">False</param>
+        <param name="RevealParticleTexture">leaf_particle.png</param>
+        <actions />
+      </ext-elem-ref>
+    </map-element>
+    <map-element targetId="Bolsa4" layer="0" scale="0.05033428" orientation="2">
+      <condition>
+        <inactive flag="Bolsa4Cogida" />
+      </condition>
+      <ext-elem-ref transformManager="uAdventure.Geo.GeopositionedDescriptor">
+        <param name="Position">(40.4597778320313, -3.72043251991272)</param>
+        <param name="Rotation">0</param>
+        <param name="InteractionRange">25</param>
+        <param name="RevealOnlyOnRange">True</param>
+        <param name="Hint">False</param>
+        <param name="RevealParticleTexture">leaf_particle.png</param>
+        <actions />
+      </ext-elem-ref>
+    </map-element>
+    <map-element targetId="Inicio" layer="0" scale="1" orientation="2">
+      <condition>
+        <active flag="FabiolaVisitada" />
+      </condition>
+    </map-element>
+  </map-scene>
+  <geoelement id="FuenteTomasa">
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <geometries>
+      <geometry influence="1">
+        <Polygon>
+          <exterior>
+            <LinearRing>
+              <posList>40,4587082757223 -3,72317357175838 40,4584960298374 -3,72317893617642 40,4585041931677 -3,72345252149591 40,4587082757369 -3,72345252149591</posList>
+            </LinearRing>
+          </exterior>
+        </Polygon>
+      </geometry>
+    </geometries>
+    <actions>
+      <enter-action>
+        <effect>
+          <trigger-scene idTarget="Fuente" x="800" y="900" transitionTime="0" transitionType="0" />
+          <condition />
+          <trigger-conversation idTarget="FuenteConver1" />
+          <condition />
+          <activate flag="EnEscena" />
+          <condition />
+        </effect>
+        <only-from-outside>True</only-from-outside>
+      </enter-action>
+    </actions>
+  </geoelement>
+  <geoelement id="EstatuaAndresBello">
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <geometries>
+      <geometry influence="1">
+        <Polygon>
+          <exterior>
+            <LinearRing>
+              <posList>40,4598910211547 -3,72170843734843 40,4600563262592 -3,72170307293043 40,4600522446958 -3,72147969128189 40,4598910211547 -3,72148505569989</posList>
+            </LinearRing>
+          </exterior>
+        </Polygon>
+      </geometry>
+    </geometries>
+    <actions>
+      <enter-action>
+        <effect>
+          <trigger-scene idTarget="Estatua" x="384" y="768" transitionTime="0" transitionType="0" />
+          <condition />
+          <trigger-conversation idTarget="EstatuaConver1" />
+          <condition />
+          <activate flag="EstatuaVisitada" />
+          <condition />
+          <activate flag="EnEscena" />
+          <condition />
+        </effect>
+        <only-from-outside>True</only-from-outside>
+      </enter-action>
+    </actions>
+  </geoelement>
+  <geoelement id="InstitutoFabiola">
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <geometries>
+      <geometry influence="1">
+        <Polygon>
+          <exterior>
+            <LinearRing>
+              <posList>40,4584099368891 -3,72028202085087 40,4582038125757 -3,72025251655171 40,4578691143237 -3,72064411906788 40,4576956420126 -3,72111082343648 40,4581507507689 -3,72162312535833 40,4585854481822 -3,72115105657172 40,4586834077743 -3,72097939519476 40,458595652313 -3,72065216569495</posList>
+            </LinearRing>
+          </exterior>
+        </Polygon>
+      </geometry>
+    </geometries>
+    <actions>
+      <enter-action>
+        <effect>
+          <trigger-scene idTarget="Instituto" x="350" y="358" transitionTime="0" transitionType="0" />
+          <condition />
+          <trigger-conversation idTarget="InstitutoConver1" />
+          <condition />
+          <activate flag="EnEscena" />
+          <condition />
+        </effect>
+        <only-from-outside>True</only-from-outside>
+      </enter-action>
+    </actions>
+  </geoelement>
+  <geoelement id="MiradorDehesa">
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <geometries>
+      <geometry influence="1">
+        <Polygon>
+          <exterior>
+            <LinearRing>
+              <posList>40,4592161242341 -3,72500922942587 40,4590671451458 -3,72501995826191 40,4590630635223 -3,72523721719215 40,4592222466553 -3,72522648835607</posList>
+            </LinearRing>
+          </exterior>
+        </Polygon>
+      </geometry>
+    </geometries>
+    <actions>
+      <enter-action>
+        <effect>
+          <trigger-scene idTarget="Mirador" x="800" y="675" transitionTime="0" transitionType="0" />
+          <condition />
+          <trigger-conversation idTarget="MiradorConver1" />
+          <condition />
+          <activate flag="EnEscena" />
+          <condition />
+        </effect>
+        <only-from-outside>True</only-from-outside>
+      </enter-action>
+    </actions>
+  </geoelement>
+  <geoelement id="BosqueGeo1">
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <geometries>
+      <geometry influence="1">
+        <Polygon>
+          <exterior>
+            <LinearRing>
+              <posList>40,4597179800403 -3,72291545655213 40,4595138964838 -3,72291545655213 40,4595138964838 -3,72318367745361 40,4597179800403 -3,72318367745361</posList>
+            </LinearRing>
+          </exterior>
+        </Polygon>
+      </geometry>
+    </geometries>
+    <actions>
+      <enter-action>
+        <effect>
+          <trigger-scene idTarget="Bosque1" x="421" y="1125" transitionTime="0" transitionType="5" />
+          <condition />
+          <speak-player>Este no es el lugar al que teno que ir. Pero a lo mejor encuentro algo interesante</speak-player>
+          <condition />
+        </effect>
+        <only-from-outside>True</only-from-outside>
+      </enter-action>
+    </actions>
+  </geoelement>
+  <geoelement id="BosqueGeo2">
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <geometries>
+      <geometry influence="1">
+        <Polygon>
+          <exterior>
+            <LinearRing>
+              <posList>40,4596036939402 -3,72454623963289 40,4593996133471 -3,72454623963289 40,4593996133471 -3,72481446053438 40,4596036939402 -3,72481446053438</posList>
+            </LinearRing>
+          </exterior>
+        </Polygon>
+      </geometry>
+    </geometries>
+    <actions>
+      <enter-action>
+        <effect>
+          <trigger-scene idTarget="Bosque3" x="135" y="362" transitionTime="0" transitionType="5" />
+          <condition />
+          <speak-player>Este no es el lugar al que teno que ir. Pero a lo mejor encuentro algo interesante</speak-player>
+          <condition />
+        </effect>
+        <only-from-outside>True</only-from-outside>
+      </enter-action>
+    </actions>
+  </geoelement>
+  <geoelement id="BosqueGeo3">
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <geometries>
+      <geometry influence="1">
+        <Polygon>
+          <exterior>
+            <LinearRing>
+              <posList>40,458785329247 -3,72183184411008 40,4585812476806 -3,72183184411008 40,4585812476806 -3,72210006501156 40,458785329247 -3,72210006501156</posList>
+            </LinearRing>
+          </exterior>
+        </Polygon>
+      </geometry>
+    </geometries>
+    <actions>
+      <enter-action>
+        <effect>
+          <trigger-scene idTarget="Bosque4" x="199" y="530" transitionTime="0" transitionType="5" />
+          <condition />
+          <speak-player>Este no es el lugar al que teno que ir. Pero a lo mejor encuentro algo interesante</speak-player>
+          <condition />
+        </effect>
+        <only-from-outside>True</only-from-outside>
+      </enter-action>
+    </actions>
+  </geoelement>
+  <geoelement id="BosqueGeo4">
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <geometries>
+      <geometry influence="1">
+        <Polygon>
+          <exterior>
+            <LinearRing>
+              <posList>40,4597261419735 -3,72406344200994 40,4595220609093 -3,72406344200994 40,4595220609093 -3,72433166291142 40,4597261419735 -3,72433166291142</posList>
+            </LinearRing>
+          </exterior>
+        </Polygon>
+      </geometry>
+    </geometries>
+    <actions>
+      <enter-action>
+        <effect>
+          <trigger-scene idTarget="Bosque2" x="167" y="446" transitionTime="0" transitionType="5" />
+          <condition />
+          <speak-player>Este no es el lugar al que teno que ir. Pero a lo mejor encuentro algo interesante</speak-player>
+          <condition />
+        </effect>
+        <only-from-outside>True</only-from-outside>
+      </enter-action>
+    </actions>
+  </geoelement>
+  <geoelement id="Inicio">
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <geometries>
+      <geometry influence="1,5">
+        <Polygon>
+          <exterior>
+            <LinearRing>
+              <posList>40,4605506207007 -3,7194822290129 40,4595057305861 -3,71941785599654 40,4594894041892 -3,72036199356976 40,4605179684109 -3,72042636658612</posList>
+            </LinearRing>
+          </exterior>
+        </Polygon>
+      </geometry>
+    </geometries>
+    <actions>
+      <enter-action>
+        <effect>
+          <trigger-scene idTarget="Tesoro" x="161" y="430" transitionTime="0" transitionType="0" />
+          <condition />
+          <activate flag="EnEscena" />
+          <condition />
+          <trigger-conversation idTarget="TesoroConver" />
+          <condition />
+        </effect>
+        <only-from-outside>True</only-from-outside>
+      </enter-action>
+    </actions>
+  </geoelement>
+  <object id="IntroBook" returnsWhenDragged="yes" behaviour="first-action" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/1.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <examine needsGoTo="no" keepDistance="0" not-effects="no">
+        <effect>
+          <trigger-conversation idTarget="Intro1" />
+          <condition />
+          <trigger-scene idTarget="MapaCIU" x="306" y="306" transitionTime="0" transitionType="0" />
+          <condition />
+          <generate-object idTarget="Intrucciones" />
+          <condition />
+          <generate-object idTarget="IntroBook" />
+          <condition />
+        </effect>
+      </examine>
+    </actions>
+  </object>
+  <object id="Intrucciones" returnsWhenDragged="yes" behaviour="first-action" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/InstruccionesItem.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <examine needsGoTo="no" keepDistance="0" not-effects="no">
+        <effect>
+          <trigger-cutscene idTarget="Instrucciones" />
+          <condition />
+        </effect>
+      </examine>
+    </actions>
+  </object>
+  <object id="Nudo" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/cuerdas.jpg" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="Carta" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/cartaAmor.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="Bolsa1" returnsWhenDragged="yes" behaviour="first-action" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/10k_Coin_Bag.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <examine needsGoTo="no" keepDistance="0" not-effects="no">
+        <effect>
+          <activate flag="Bolsa1Cogida" />
+          <condition />
+          <increment var="Monedas" value="10" />
+          <condition />
+        </effect>
+      </examine>
+    </actions>
+  </object>
+  <object id="Bolsa2" returnsWhenDragged="yes" behaviour="first-action" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/10k_Coin_Bag.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <examine needsGoTo="no" keepDistance="0" not-effects="no">
+        <effect>
+          <activate flag="Bolsa2Cogida" />
+          <condition />
+          <increment var="Monedas" value="10" />
+          <condition />
+        </effect>
+      </examine>
+    </actions>
+  </object>
+  <object id="Bolsa3" returnsWhenDragged="yes" behaviour="first-action" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/10k_Coin_Bag.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <examine needsGoTo="no" keepDistance="0" not-effects="no">
+        <effect>
+          <activate flag="Bolsa3Cogida" />
+          <condition />
+          <increment var="Monedas" value="10" />
+          <condition />
+        </effect>
+      </examine>
+    </actions>
+  </object>
+  <object id="Bolsa4" returnsWhenDragged="yes" behaviour="first-action" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/10k_Coin_Bag.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <examine needsGoTo="no" keepDistance="0" not-effects="no">
+        <effect>
+          <activate flag="Bolsa4Cogida" />
+          <condition />
+          <increment var="Monedas" value="10" />
+          <condition />
+        </effect>
+      </examine>
+    </actions>
+  </object>
+  <object id="ArrowDown" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/downArrows.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <graph-conversation id="Intro1">
+    <dialogue-node nodeindex="0" editor-x="50" editor-y="48">
+      <speak-player>
+        <resources name="No name" />
+        <text>Había una vez, un temido pirata que gobernaba los siete mares.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Era tan temido, que se dice que su barco quitaba la vida de todo aquel que osara entrar sin permiso.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Al pirata..., se le conoce como...</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>El capitán Klauth Seis Cabezas</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Era uno con la mar hasta hace 7 años. Su muerte ha sido motivo de celebración desde entonces.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Pero tú ya no tienes tiempo para celebrar. Junto a su cuerpo encontraron un mapa lleno de acertijos</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>y tú, tras 7 años has sido capaz de descifrarlo.</text>
+      </speak-player>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="PlayerLoroConver1">
+    <dialogue-node nodeindex="0" editor-x="50" editor-y="50">
+      <speak-player>
+        <resources name="No name" />
+        <text>Han sido 7 años y siento que estamos muy cerca.</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>¡ORO, ORO!</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Si Balta..., MUCHO oro... Tanto como para tener mil barriles de ron.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Tanto como para tener 10 barcos capitaneados por mi.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Tanto oro..., tanto poder...</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrrr* ¡borracho!</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="1" />
+    </dialogue-node>
+    <option-node nodeindex="1" question="Te acaba de llamar borracho ¿qué haces?" preListening="yes" editor-x="554" editor-y="50" x="554" y="50">
+      <speak-player>
+        <text>Cerrar el pico al maldito loro</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+      <speak-player>
+        <text>Ignorarle</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+    </option-node>
+    <dialogue-node nodeindex="2" editor-x="1035" editor-y="77">
+      <speak-player>
+        <resources name="No name" />
+        <text>Sigamos, el ultimo camino al que nos mandaba el mapa era la Estatua de Andrés Bello.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Según el mapa está por aquí</text>
+      </speak-player>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="Intro2">
+    <dialogue-node nodeindex="0" editor-x="50" editor-y="50">
+      <speak-player>
+        <resources name="No name" />
+        <text>Y ahora, el mapa te ha llevado hasta aquí.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>A la Isla de los Susurros.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Ahora el mapa es inservible. Ahora toca explorar y encontrar pistas en la inmensidad de la isla.</text>
+      </speak-player>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="EstatuaConver1">
+    <dialogue-node nodeindex="0" editor-x="0" editor-y="52">
+      <speak-player>
+        <resources name="No name" />
+        <text>Ya hemos llegado</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrr* ¡ORO!</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Todavía es pronto para eso.</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Te acercas a la estatua y ves una escritura en el libro que sostiene.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Parece otro acertijo, dice:</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="1" />
+    </dialogue-node>
+    <dialogue-node nodeindex="1" editor-x="446" editor-y="65">
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Si la siguiente pista quieres encontrar</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>a las letras de mi nombre 2 has de sumar  </text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>y para terminar el valor total tienes que hallar.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Pero ten cuidado, si la respuesta erronea das perderas tiempo en el mar</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="2" />
+    </dialogue-node>
+    <option-node nodeindex="2" random="yes" preListening="yes" editor-x="1084" editor-y="63" x="1084" y="63">
+      <speak-player>
+        <text>133</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="3" />
+      <speak-player>
+        <text>100</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+      <speak-player>
+        <text>132</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+      <speak-player>
+        <text>120</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+      <speak-player>
+        <text>Volver a leer acertijo</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="1" />
+      <speak-player>
+        <text>Preguntar a Balta</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="5" />
+    </option-node>
+    <dialogue-node nodeindex="3" editor-x="1608" editor-y="31">
+      <speak-player>
+        <resources name="No name" />
+        <text>Parece que esa es la respuesta correcta</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Ciertas letras del libro se estan reorganizando</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Parece que describen la siguiente ubicacion</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Se puede leer "Busca el mirador desde el que se ve el horizonte"</text>
+      </speak-player>
+      <condition />
+      <end-conversation>
+        <effect>
+          <activate flag="EstatuaVisitada" />
+          <condition />
+          <trigger-conversation idTarget="EstatuaConverFinal" />
+          <condition />
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+    <dialogue-node nodeindex="4" editor-x="921" editor-y="775">
+      <speak-player>
+        <resources name="No name" />
+        <text>Parece que la solución no es correcta</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Maldición, esto me hara perder tiempo.</text>
+      </speak-player>
+      <condition />
+      <child nodeindex="1" />
+      <effect>
+        <increment var="Time" value="30" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="5" editor-x="1524" editor-y="514">
+      <speak-player>
+        <resources name="No name" />
+        <text>Alguna idea Balta</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>A es 1 pero no se sumar.</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Uhhhh.. si A es 1 y tengo que sumar 2...</text>
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="LoroAyuda">
+    <option-node nodeindex="0" question="¿Qué quieres preguntarle?" preListening="yes" editor-x="50" editor-y="50" x="50" y="50">
+      <speak-player>
+        <text>¿A dónde nos dirigimos?</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="1" />
+      <speak-player>
+        <text>¿Cuántas monedas tengo?</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+      <speak-player>
+        <text>Nada, no necesito ayuda</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="3" />
+    </option-node>
+    <dialogue-node nodeindex="1" editor-x="626" editor-y="16">
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrr* *Rrrr*</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>"Busca el mirador desde el que se ve el horizonte"</text>
+      </speak-char>
+      <condition>
+        <inactive flag="MiradorVisitado" />
+        <active flag="EstatuaVisitada" />
+      </condition>
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>"Alli donde el rio muere encontraras a Tomasa"</text>
+      </speak-char>
+      <condition>
+        <inactive flag="FuenteVisitada" />
+        <active flag="MiradorVisitado" />
+      </condition>
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>"Encuentra el lugar donde nacian los marineros y deshaz el nudo del destino"</text>
+      </speak-char>
+      <condition>
+        <inactive flag="InstitutoVisitado" />
+        <active flag="FuenteVisitada" />
+      </condition>
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrr**Rrrr*</text>
+      </speak-char>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+    <dialogue-node nodeindex="2" editor-x="625" editor-y="248">
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>Ninguna... Son todas mias</text>
+      </speak-char>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+    <dialogue-node nodeindex="3" editor-x="644" editor-y="461">
+      <end-conversation>
+        <effect>
+          <random-effect probability="20">
+            <random-effect probability="50">
+              <random-effect probability="50">
+                <random-effect probability="50">
+                  <speak-char idTarget="LoroBalta">*Rrrr*Canalla*Rrrr*</speak-char>
+                  <condition />
+                  <speak-char idTarget="LoroBalta">*Rrrr*Piltrafa*Rrrr*</speak-char>
+                  <condition />
+                </random-effect>
+                <condition />
+                <random-effect probability="50">
+                  <speak-char idTarget="LoroBalta">*Rrrr*Botarate*Rrrr*</speak-char>
+                  <condition />
+                  <speak-char idTarget="LoroBalta">*Rrrr*Hediondo*Rrrr*</speak-char>
+                  <condition />
+                </random-effect>
+                <condition />
+              </random-effect>
+              <condition />
+              <random-effect probability="50">
+                <random-effect probability="50">
+                  <speak-char idTarget="LoroBalta">*Rrrr*Zopenco*Rrrr*</speak-char>
+                  <condition />
+                  <speak-char idTarget="LoroBalta">*Rrrr*Palurdo*Rrrr*</speak-char>
+                  <condition />
+                </random-effect>
+                <condition />
+                <random-effect probability="50" />
+                <condition />
+              </random-effect>
+              <condition />
+            </random-effect>
+            <condition />
+            <random-effect probability="50">
+              <random-effect probability="50">
+                <random-effect probability="50" />
+                <condition />
+                <random-effect probability="50">
+                  <speak-char idTarget="LoroBalta">*Rrrr*Cucaracha*Rrrr*</speak-char>
+                  <condition />
+                  <speak-char idTarget="LoroBalta">*Rrrr*Mequetrefe*Rrrr*</speak-char>
+                  <condition />
+                </random-effect>
+                <condition />
+              </random-effect>
+              <condition />
+              <random-effect probability="50">
+                <random-effect probability="50">
+                  <speak-char idTarget="LoroBalta">*Rrrr*Sabandija*Rrrr*</speak-char>
+                  <condition />
+                  <speak-char idTarget="LoroBalta">*Rrrr*Alcornoque*Rrrr*</speak-char>
+                  <condition />
+                </random-effect>
+                <condition />
+                <random-effect probability="50">
+                  <speak-char idTarget="LoroBalta">*Rrrr*Pestilente*Rrrr*</speak-char>
+                  <condition />
+                  <speak-char idTarget="LoroBalta">*Rrrr*Lamecharcos*Rrrr*</speak-char>
+                  <condition />
+                </random-effect>
+                <condition />
+              </random-effect>
+              <condition />
+            </random-effect>
+            <condition />
+          </random-effect>
+          <condition />
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="EstatuaConverFinal">
+    <dialogue-node nodeindex="0" editor-x="50" editor-y="50">
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrr* Cara carpa</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Es por algo que he leido en ese libro...</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Era el diario de Klauth. Aunque sólo se podían leer unas pocas páginas...</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Hablaba de una criatura alada más mortifera que el mismisimo kraken...</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Y de que había sido maldito</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Decía algo de renunciar a su tesoro</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrr* ¡ORO!</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Oro...</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>En fin..., toca dirigirnos al "Mirador desde el que se ve el horizonte"</text>
+      </speak-player>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="MiradorConver1">
+    <dialogue-node nodeindex="0" editor-x="50" editor-y="50">
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Te adentras en lo que parece ser una superficie amplia.</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Hemos llegado</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Se escuchan susurros pero no logras entender lo que dicen.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Te acercas a mirador y encuentras una hoja mojada que dice:</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="1" />
+    </dialogue-node>
+    <dialogue-node nodeindex="1" editor-x="286" editor-y="80">
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Cuando el sol esta en lo alto,</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>la gran espada le apunta</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Cada gota de sangre le quitaba 15 minutos de vida</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>y cada calada de aire le otorgaba 30</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Cuando se extinguira su llama.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="2" />
+    </dialogue-node>
+    <option-node nodeindex="2" question="respuesta" random="yes" preListening="yes" editor-x="761" editor-y="49" x="761" y="49">
+      <speak-player>
+        <text>12 30</text>
+      </speak-player>
+      <condition />
+      <child nodeindex="3" />
+      <speak-player>
+        <text>13 00</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+      <speak-player>
+        <text>10 00</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+      <speak-player>
+        <text>12 00</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+      <speak-player>
+        <text>Volver a leer</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="1" />
+      <speak-player>
+        <text>Preguntar a Balta</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="5" />
+    </option-node>
+    <dialogue-node nodeindex="3" editor-x="1434" editor-y="86">
+      <speak-player>
+        <resources name="No name" />
+        <text>Encontre la solución, un pergamino ha aparecido</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Seguramente indique la siguiente ubicacion.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Se puede leer "Alli donde el rio muere encontraras a Tomasa"</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>Fuente *Rrrr* Tomasa *Rrrr*</text>
+      </speak-char>
+      <condition />
+      <end-conversation>
+        <effect>
+          <activate flag="AcertijoMiradorDone" />
+          <condition />
+          <trigger-conversation idTarget="MiradorConverFinal" />
+          <condition />
+          <activate flag="MiradorVisitado" />
+          <condition />
+          <trigger-last-scene />
+          <condition />
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+    <dialogue-node nodeindex="4" editor-x="1316" editor-y="385">
+      <speak-player>
+        <resources name="No name" />
+        <text>La respuesta no era correcta.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Maldicion esto nos ralentizara</text>
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+      <effect>
+        <increment var="Time" value="30" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="5" editor-x="743" editor-y="586">
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrr*Cuando el sol esta en lo alto la mitad del dia ha pasado*Rrr*</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrr* 4 Barras rojas y 3 barras blancas forman la aguja.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="2" />
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="MiradorConverFinal">
+    <dialogue-node nodeindex="0" editor-x="97" editor-y="38">
+      <speak-char idTarget="Fantasma">
+        <resources name="No name" />
+        <text>Buh</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Pero qué...</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Te quedas sin habla por unos segundos</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Fantasma">
+        <resources name="No name" />
+        <text>Sé lo que andais buscando y no lo vais a conseguir</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>¿Quién eres?</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Fantasma">
+        <resources name="No name" />
+        <text>Quien sea ya no importa, vine buscando lo mismo que vosotros y ahora formo parte de la isla</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Fantasma">
+        <resources name="No name" />
+        <text>Klauth me encontró en este bosque y..., no recuerdo bien. Perdí la consciencia.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Fantasma">
+        <resources name="No name" />
+        <text>Lo último que recuerdo de él son su piel escamada, sus uñas largas y sus ojos ardientes...</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Fantasma">
+        <resources name="No name" />
+        <text>La maldad encarnada.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Fantasma">
+        <resources name="No name" />
+        <text>Al despertar vi como la tierra se tragaba mi propio cuerpo.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Fantasma">
+        <resources name="No name" />
+        <text>Ahora soy un susurro más de la isla.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Fantasma">
+        <resources name="No name" />
+        <text>No te despistes o acabarás como yo</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="1" />
+    </dialogue-node>
+    <dialogue-node nodeindex="1" editor-x="768" editor-y="97">
+      <speak-player>
+        <resources name="No name" />
+        <text>Piel escamada, uñas largas...</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Así lo describía en el diario...</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>...</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrr* ¡ORO!</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Si Balta..., vamos a la siguiente ubicación.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>"La Fuente con paredes de piedra"</text>
+      </speak-player>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="FuenteConver1">
+    <dialogue-node nodeindex="0" editor-x="50" editor-y="50">
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Llegas a la fuente.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>A su lado hay dos figuras piratescas</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="1" />
+    </dialogue-node>
+    <option-node nodeindex="1" question="¿Que haces?" random="yes" preListening="yes" editor-x="482" editor-y="50" x="482" y="50">
+      <speak-player>
+        <text>Atacarles</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+      <speak-player>
+        <text>Acercarte a hablar manteniendo la guarda</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="3" />
+    </option-node>
+    <dialogue-node nodeindex="2" editor-x="942" editor-y="18">
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Intentas atacarles, el filo de tu espada les atraviesa</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>No ocurre nada, ha sido como cortar al aire y los dos están intactos.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Te miran con una sonrisa burlesca</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Piratas1">
+        <resources name="No name" />
+        <text>No es una buena forma de presentarte, ¿por qué no empiezas de nuevo?</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Guardas tu espada</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="3" />
+    </dialogue-node>
+    <dialogue-node nodeindex="3" editor-x="1419" editor-y="340">
+      <speak-player>
+        <resources name="No name" />
+        <text>¿Quienes sois?</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Piratas1">
+        <resources name="No name" />
+        <text>Poca personas se atreven a entrar a esta isla</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Piratas1">
+        <resources name="No name" />
+        <text>Eramos los tres hermanos pirata más valientes...</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Piratas1">
+        <resources name="No name" />
+        <text>Pero ahora...</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Piratas1">
+        <resources name="No name" />
+        <text>Somos susurros</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>¿Cómo llegasteis aquí?</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Piratas1">
+        <resources name="No name" />
+        <text>Hace 12 años nos adentramos en la isla</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Piratas1">
+        <resources name="No name" />
+        <text>Ibamos tras nuestra hermana M...</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="4" />
+      <effect>
+        <activate flag="PiratasConverDone" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="4" editor-x="1980" editor-y="198">
+      <speak-player>
+        <resources name="No name" />
+        <text>¿A dónde habéis ido?</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>¿Hola?</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Los susurros desaparecieron sin más</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Te acercas a la fuente y ves las siglas M.M. grabadas en ella.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>En la pared hay un hueco, metes la mano en un acto de fé y sacas una pequeña caja de madera enmohecida.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Dentro de la caja hay una carta firmada por M.M. Parece un acertijo.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>En ella dice: *Mostrar carta*</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="5" />
+      <effect>
+        <activate flag="CartaVisible" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="5" editor-x="2388" editor-y="183">
+      <speak-player>
+        <resources name="No name" />
+        <text>Una Carta misteriosa</text>
+      </speak-player>
+      <condition />
+      <child nodeindex="6" />
+      <effect>
+        <deactivate flag="CartaVisible" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <option-node nodeindex="6" question="Respuestas" preListening="yes" editor-x="2762" editor-y="183" x="2762" y="183">
+      <speak-player>
+        <text>Mi amor mi tesoro</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="7" />
+      <speak-player>
+        <text>Mi tesoro mi poder</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="8" />
+      <speak-player>
+        <text>Mi familia mi amor</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="8" />
+      <speak-player>
+        <text>Mi poder mi legado</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="8" />
+      <speak-player>
+        <text>Preguntar a Balta</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="9" />
+      <speak-player>
+        <text>Volver a leer carta</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="10" />
+    </option-node>
+    <dialogue-node nodeindex="7" editor-x="3234" editor-y="140">
+      <end-conversation>
+        <effect>
+          <trigger-conversation idTarget="FuenteConverFinal" />
+          <condition />
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+    <dialogue-node nodeindex="8" editor-x="3231" editor-y="385">
+      <speak-player>
+        <resources name="No name" />
+        <text>Rayos no es la respuesta correcta</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>A este paso los demas piratas nos ganaran.</text>
+      </speak-player>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+    <dialogue-node nodeindex="9" editor-x="3180" editor-y="705">
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrr* Color rojo *Rrrr*</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrr* Letras Mayores *Rrrr*</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="6" />
+    </dialogue-node>
+    <dialogue-node nodeindex="10" editor-x="2730" editor-y="753">
+      <child nodeindex="5" />
+      <effect>
+        <activate flag="CartaVisible" />
+        <condition />
+      </effect>
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="FuenteConverFinal">
+    <dialogue-node nodeindex="0" editor-x="50" editor-y="50">
+      <speak-player>
+        <resources name="No name" />
+        <text>M.M.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>El nombre de la hermana de los susurros empezaba por M. </text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Parece que Klauth sacó de ella lo de los acertijos</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>¿A caso se enamoraron?</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>¿Klauth tenía mujer?</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrr* ¡AGUA, AGUA!</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>La fuente empieza a escupir agua hasta que termina escupiendo una lamina de metal.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>En ella se puede leer "Encuentra el lugar donde nacian los marineros y deshaz el nudo del destino"</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrr* ¿Agua?</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>No Balta..., agua no. Oro.</text>
+      </speak-player>
+      <condition />
+      <end-conversation>
+        <effect>
+          <activate flag="FuenteVisitada" />
+          <condition />
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="TesoroConver">
+    <dialogue-node nodeindex="0" editor-x="43" editor-y="57">
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Llegais a la ubicacion que indicaba la lamina de metal que escupió la fuente. Parece una construcción antigua y las hiedras lo envuelven.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Con tu espada cortas las raices y descubren un hueco por el que te metes.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Parece una cripta, pero solo hay una tumba de piedra con las iniciales M.M. talladas en ella.</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>La tumba de M.M.</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrr* ORO</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>No Balta, aquí no hay oro, solo un muerto. ¿Todo esto para nada?</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>De la rabia golpeas la tapa de la tumba y se parte una esquina.</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>¿Que es eso?</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Te das cuenta de que no hay ningun cuerpo, pero si unas escaleras que se hunden en la oscuridad de lo subterraneo.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Coges una antigua antorcha de la cripta, la enciendes y decides bajar.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Llegas al piso bajo y te encuentras con una sala casi circular con el mayor tesoro que has visto en todos tus años de vida pirata.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>En en centro de la sala una tumba con las misma siglas grabadas.</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>¡Cuánto oro! ¡Demasiado ron! ¡De sobra!</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrrr* ¡TUMBA! ¡M.M.!</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>¿Será la de verdad?</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Has encontrado el tesoro, pero sientes curiosidad.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Te acercas a la tumba. A medida que te acercas la tumba va tornando a un color dorado escamado.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Hay una frase grabada en ella que dice:</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>"Tu me diste el mayor tesoro de todos, ahora descansas arropada entre mis propias alas."</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>"Meredith Maris"</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>"Mi amor, Mi tesoro"</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="1" />
+    </dialogue-node>
+    <dialogue-node nodeindex="1" editor-x="345" editor-y="79">
+      <end-conversation>
+        <effect>
+          <deactivate flag="AcertijoMiradorDone" />
+          <condition />
+          <activate flag="Win" />
+          <condition />
+          <trigger-cutscene idTarget="Win" />
+          <condition />
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="InstitutoConver1">
+    <dialogue-node nodeindex="0" editor-x="50" editor-y="50">
+      <speak-player>
+        <resources name="No name" />
+        <text>Wow, este edificio no se veía desde la costa.</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Llegas a un edificio enorme, entras e invetigando descubres</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>que es un centro donde enseñaban a los hijos de la nobleza a navegar.</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Llegas a un despacho y ves el nombre de Klauth en una lista de alumnos graduados de hace 52 años.</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Parece que Klauth tenía mucho más oro del que creía. ¿Era un niño rico?</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>De repente, una carta se desliza de entre la pila de papeles. </text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Parece otro acertijo, este dice:</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="1" />
+    </dialogue-node>
+    <dialogue-node nodeindex="1" editor-x="520" editor-y="50">
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>"Que eres un marinero debes demostrar</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>El nudo mas dificil tendras que desatar</text>
+      </speak-char>
+      <condition />
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Solo siguiendo los pasos correctos al extremo correcto vas a llegar"</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="2" />
+      <effect>
+        <activate flag="NudoVisible" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="2" editor-x="1075" editor-y="70">
+      <speak-player>
+        <resources name="No name" />
+        <text>Tengo que seguir las instrucciones</text>
+      </speak-player>
+      <condition />
+      <child nodeindex="3" />
+      <effect>
+        <deactivate flag="NudoVisible" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <option-node nodeindex="3" random="yes" preListening="yes" editor-x="1590" editor-y="89" x="1590" y="89">
+      <speak-player>
+        <text>A</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+      <speak-player>
+        <text>B</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="5" />
+      <speak-player>
+        <text>C</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+      <speak-player>
+        <text>D</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+      <speak-player>
+        <text>Volver a ver imagen</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="6" />
+      <speak-player>
+        <text>Preguntar a Balta</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="7" />
+    </option-node>
+    <dialogue-node nodeindex="4" editor-x="2141" editor-y="389">
+      <speak-player>
+        <resources name="No name" />
+        <text>Maldita sea, esa no es la solucion</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>A este paso no seremos los primeros en llegar al tesoro.</text>
+      </speak-player>
+      <condition />
+      <child nodeindex="3" />
+    </dialogue-node>
+    <dialogue-node nodeindex="5" editor-x="2106" editor-y="28">
+      <speak-char idTarget="Narrador">
+        <resources name="No name" />
+        <text>Descifras el acertijo. Parece que ya tienes la ubicación del tesoro.</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Estamos muy cerca Balta.</text>
+      </speak-player>
+      <condition />
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrr* ORO</text>
+      </speak-char>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Parece que tenemos que volver de donde venimos.</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>"Donde las Palomas descansan"</text>
+      </speak-player>
+      <condition />
+      <end-conversation>
+        <effect>
+          <activate flag="FabiolaVisitada" />
+          <condition />
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+    <dialogue-node nodeindex="6" editor-x="1234" editor-y="570">
+      <child nodeindex="2" />
+      <effect>
+        <activate flag="NudoVisible" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="7" editor-x="1602" editor-y="584">
+      <speak-char idTarget="LoroBalta">
+        <resources name="No name" />
+        <text>*Rrr* Sigue las instrucciones merluzo *Rrrr*</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="3" />
+    </dialogue-node>
+  </graph-conversation>
+  <slidescene id="Instrucciones" start="no" next="go-back" class="accesible" type="cutscene">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="slides" uri="assets/animation/Introduccion.eaa.xml" />
+    </resources>
+    <name>
+    </name>
+  </slidescene>
+  <slidescene id="Win" start="no" next="go-back" class="accesible" type="cutscene">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="slides" uri="assets/animation/WinCutscene.eaa.xml" />
+    </resources>
+    <name>
+    </name>
+  </slidescene>
+</eAdventure>
